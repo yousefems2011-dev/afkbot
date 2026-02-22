@@ -87,10 +87,10 @@ function createBot () {
     // auto random chat (switch se controlled)
     if (ENABLE_RANDOM_CHAT) {
       setInterval(() => {
-        const chats = ['mining afk', 'brb', 'lag', 'gf', 'wp'];
+        const chats = ['Ramadan Kareem 🌙', 'رمضان كريم 🌙'];
         const msg = chats[Math.floor(Math.random() * chats.length)];
         bot.chat(msg);
-      }, 30000 + Math.random() * 60000);
+      }, 300000);
     }
 
     // === Break + Place block loop (every 10 minutes) ===
